@@ -22,11 +22,9 @@ layout: default
           {% if page.profile.image_circular %}
             {% assign profile_image_class = 'img-fluid z-depth-1 rounded-circle' %}
           {% else %}
-            {% assign profile_image_class = 'img-fluid z-depth-1
-      rounded' %}
+            {% assign profile_image_class = 'img-fluid z-depth-1 rounded' %}
           {% endif %}
-          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px)
-      30vw, 95vw"{% endcapture %}
+          {% capture sizes %}(min-width: {{ site.max_width }}) {{ site.max_width | minus: 30 | times: 0.3}}px, (min-width: 576px) 30vw, 95vw"{% endcapture %}
           {%
             include figure.liquid loading="eager" path=profile_image_path class=profile_image_class sizes=sizes alt=page.profile.image
             cache_bust=true
@@ -40,7 +38,6 @@ layout: default
 
     <div class="clearfix">{{ content }}</div>
 
-    <!-- News -->
     {% if page.announcements and page.announcements.enabled %}
       <h2>
         <a href="{{ '/news/' | relative_url }}" style="color: inherit">news</a>
@@ -48,7 +45,6 @@ layout: default
       {% include news.liquid limit=true %}
     {% endif %}
 
-    <!-- Latest posts -->
     {% if page.latest_posts and page.latest_posts.enabled %}
       <h2>
         <a href="{{ '/blog/' | relative_url }}" style="color: inherit">latest posts</a>
@@ -56,15 +52,36 @@ layout: default
       {% include latest_posts.liquid %}
     {% endif %}
 
-    <!-- Selected papers -->
     {% if page.selected_papers %}
       <h2>
-        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">selected publications</a>
+        <a href="{{ '/publications/' | relative_url }}" style="color: inherit">Selected Publications</a>
       </h2>
       {% include selected_papers.liquid %}
     {% endif %}
 
-    <!-- Social -->
+    {% if page.selected_projects %}
+      <h2>
+        <a href="{{ '/projects/' | relative_url }}" style="color: inherit">selected projects</a>
+      </h2>
+      <div class="projects">
+        {% assign selected_projects = site.projects | where: "selected", true | sort: "importance" %}
+        <ul class="post-list" style="list-style: none; padding-left: 0;">
+          {% for project in selected_projects %}
+            <li style="margin-bottom: 20px;">
+              <div style="font-weight: bold; font-size: 1.1rem;">
+                <a href="{{ project.url | relative_url }}">{{ project.title }}</a>
+              </div>
+              {% if project.description %}
+                <div class="project-description" style="font-size: 0.95rem; color: var(--global-text-color-light);">
+                  {{ project.description }}
+                </div>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
+
     {% if page.social %}
       <div class="social">
         <div class="contact-icons">{% social_links %}</div>

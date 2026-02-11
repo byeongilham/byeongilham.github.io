@@ -11,10 +11,23 @@ nav_order: 2
 
 <!-- Bibsearch Feature -->
 
-{% include bib_search.liquid %}
+<!-- {% include bib_search.liquid %} -->
 
+<h2 class="category">Journal Articles</h2>
 <div class="publications">
+{% bibliography -f papers -q @article %}
+</div>
 
-{% bibliography %}
+<br>
 
+<h2 class="category">Conference Papers</h2>
+<div class="publications">
+{% bibliography -f papers -q @inproceedings %}
+</div>
+
+<br>
+
+<h2 class="category">Reviews & Others</h2>
+<div class="publications">
+{% bibliography -f papers -q @misc %}
 </div>
