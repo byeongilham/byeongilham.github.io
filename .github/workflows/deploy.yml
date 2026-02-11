@@ -20,8 +20,8 @@ jobs:
       - name: Setup Ruby 💎
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.3" 
-          bundler-cache: true
+          ruby-version: "3.2" 
+          bundler-cache: false 
 
       - name: Setup Python 🐍
         uses: actions/setup-python@v5
@@ -32,9 +32,12 @@ jobs:
         run: |
           sudo apt-get update && sudo apt-get install -y imagemagick
           pip3 install --upgrade nbconvert
+          
+          # 서버의 모든 제약 사항을 풀고 새로 설치합니다.
           gem install bundler
-          bundle config set frozen false
+          bundle config unset frozen
           bundle install
+          
           export JEKYLL_ENV=production
           bundle exec jekyll build
 
