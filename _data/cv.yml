@@ -2,9 +2,9 @@ cv:
   name: Byeong-Il Ham
   # label: Scientist
   # email: byeongil&#95;ham&#64;kaist [dot] ac [dot] kr
-  email: byeongil&#95;[my_last_name]@kaist.ac.kr
+  email: byeongil_my_last_name@kaist.ac.kr
   location: Daejeon, Republic of Korea
-  image: assets/img/HBI_picture.jpg
+  image: ""
   # summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
 
   # social_networks:
@@ -125,8 +125,8 @@ cv:
 
     Awards:
       - title: Best System Paper Award
-        # authors:
-          # - "Royal Swedish Academy of Sciences"
+        authors:
+          - Hyun-Bin Kim, Chanseok Kim, Byeong-Il Ham, Jeonguk Kang, Minseong Choi, Keun-Ha Choi, Kyung-Soo Kim
         date: 2024-12
         awarder: The 12th International Conference on Robot Intelligence Technology and Applications
         # url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
