@@ -30,7 +30,7 @@ cv:
         area: Robotics
         studyType: Ph.D.
         start_date: 2024
-        end_date: Present
+        end_date: 
         courses: "Legged systems, optimal control, motion planning"
         # highlights:
         #   - Description 1.
@@ -58,13 +58,13 @@ cv:
       - company: IEEE
         position: Graduate Student Member
         start_date: 2025-03
-        end_date: Present
+        end_date: 
 
 
       - company: IEEE Robotics and Automation Society
         position: Technical Committee Member
         start_date: 2026-01
-        end_date: Present
+        end_date: 
         summary: Serving as a Technical Committee member in various advanced robotics domains.
         highlights:
           - Model-Based Optimization for Robotics
@@ -127,7 +127,7 @@ cv:
       - title: Best System Paper Award
         # authors:
           # - "Royal Swedish Academy of Sciences"
-        date: Dec. 2024
+        date: 2024-12
         awarder: The 12th International Conference on Robot Intelligence Technology and Applications
         # url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
         # summary: 
