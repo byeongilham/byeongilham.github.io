@@ -1,189 +1,249 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Byeong-Il Ham
+  # label: Scientist
+  # email: byeongil&#95;ham&#64;kaist [dot] ac [dot] kr
+  email: byeongil&#95;[my_last_name]&#64;kaist [dot] ac [dot] kr
+  location: Daejeon, Republic of Korea
+  image: assets/img/HBI_picture.jpg
+  # summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
 
-  social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+  # social_networks:
+  #   - network: X
+  #     username: AlbertEinstein
+  #   - network: GitHub
+  #     username: example
+  #   - network: LinkedIn
+  #     username: example
 
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+  # address:
+  #   street: 2712 Broadway St
+  #   city: San Francisco
+  #   region: California
+  #   postalCode: CA 94115
+  #   countryCode: US
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
-        studyType: PhD
-        start_date: 1900
-        end_date: 1905
-        score: ""
-        courses: "Theory of Relativity"
+      - institution: Korea Advanced Institute of Science and Technology
+        location: Daejeon, KR
+        url: https://msc.kaist.ac.kr
+        area: Robotics
+        studyType: Ph.D.
+        start_date: 2024
+        end_date: Present
+        courses: "Legged systems, optimal control, motion planning"
+        # highlights:
+        #   - Description 1.
+        #   - Description 2.
+      
+      - institution: Korea Advanced Institute of Science and Technology
+        location: Daejeon, KR
+        url: https://msc.kaist.ac.kr
+        area: Robotics
+        studyType: Master of Science
+        start_date: 2022
+        end_date: 2024
+        courses: "Legged systems, optimal control"
         highlights:
-          - Description 1.
-          - Description 2.
+          - Robust Swing Leg Planning Algorithm for Quadruped Robots Using Dual Convex Model-Predictive Control
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: University of Kwangwoon
+        location: Seoul, KR
+        area: School of Robotics
+        studyType: Bachelor of Science in Robotics Engineering
+        start_date: 2016
+        end_date: 2022
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+      - company: IEEE
+        position: Graduate Student Member
+        start_date: Mar. 2025
+        end_date: Present
+
+
+      - company: IEEE Robotics and Automation Society
+        position: Technical Committee Member
+        start_date: Jan. 2026
+        end_date: Present
+        summary: Serving as a Technical Committee member in various advanced robotics domains.
         highlights:
-          - Relativity
-          - Description 2.
+          - Model-Based Optimization for Robotics
+          - Humanoid Robotics
+          - Robot Control
+          - Robot Learning
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
+      
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+    # Experience:
+    #   - company: Institute for Advanced Study, Princeton University
+    #     position: Professor of Theoretical Physics
+    #     location: Princeton University, NJ
+    #     start_date: 1933
+    #     end_date: 1955
+    #     summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
+    #     highlights:
+    #       - Relativity
+    #       - Description 2.
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
+    #   - company: California Institute of Technology
+    #     position: Visiting Professor
+    #     location: Pasadena, California, US
+    #     start_date: 1933
+    #     end_date: 1933
+    #     highlights:
+    #       - Description 1.
+    #       - Description 2.
 
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
+    #   - company: Kaiser Wilhelm Institute for Physics
+    #     position: Director
+    #     location: Berlin, Germany
+    #     start_date: 1917
+    #     end_date: 1933
 
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+    #   - company: Karl-Ferdinand University
+    #     position: Professor of Theoretical Physics
+    #     location: Prague, Czechoslovakia
+    #     start_date: 1911
+    #     end_date: 1917
+
+    #   - company: University of Zurich
+    #     position: Associate Professor of Theoretical Physics
+    #     location: Zurich, Switzerland
+    #     start_date: 1909
+    #     end_date: 1911
+
+    # Volunteer:
+    #   - company: People's Climate March
+    #     position: Lead Organizer
+    #     location: Zurich, Switzerland
+    #     start_date: 2014-04-01
+    #     end_date: 2015-07-01
+    #     summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
+    #     highlights:
+    #       - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
+    #       - "Men of the year 2014 by Time magazine"
 
     Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
+      - title: Best System Paper Award
+        # authors:
+          # - "Royal Swedish Academy of Sciences"
+        date: Dec. 2024
+        awarder: The 12th International Conference on Robot Intelligence Technology and Applications
+        # url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
+        # summary: 
 
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
-        authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: Ground-Aware Octree-A* Hybrid Path Planning for Memory-Efficient 3D Navigation of Ground Vehicles
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Byeong-Il Ham, Hyun-Bin Kim, Kyung-Soo Kim
+        publisher: IEEE
+        releaseDate: 2025-12-29
+        url: https://ieeexplore.ieee.org/abstract/document/11301310
+        # summary: In this paper, we propose a 3D path planning method that integrates the A* algorithm with the octree structure. Unmanned Ground Vehicles (UGVs) and legged robots have been extensively studied, enabling locomotion across a variety of terrains. Advances in mobility have enabled obstacles to be regarded not only as hindrances to be avoided, but also as navigational aids when beneficial. A modified 3D A* algorithm generates an optimal path by leveraging obstacles during the planning process. By incorporating a height-based penalty into the cost function, the algorithm enables the use of traversable obstacles to aid locomotion while avoiding those that are impassable, resulting in more efficient and realistic path generation. The octree-based 3D grid map achieves compression by merging high-resolution nodes into larger blocks, especially in obstacle-free or sparsely populated areas. This reduces the number of nodes explored by the A* algorithm, thereby improving computational efficiency and memory usage, and supporting real-time path planning in practical environments. Benchmark results demonstrate that the use of octree structure ensures an optimal path while significantly reducing memory usage and computation time.
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: Adaptive Gait Pattern Switching under External Disturbances Using Multi-Modal MPC
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Jeonguk Kang, Byeong-Il Ham, Seungho Han, Hyun-Bin Kim, Kyung-Soo Kim
+        publisher: IEEE
+        releaseDate: 2025-11-03
+        url: https://ieeexplore.ieee.org/document/11217651
+        # summary: This study presents the development of a gait selection strategy for quadrupedal robots capable of responding to external forces. Unlike traditional controllers, our approach directly utilizes information about external forces and introduces a strategy to adapt the robot’s gait patterns accordingly. To simultaneously solve and compare various gait types, we propose a multimodal Model Predictive Control (MPC) framework. This framework dynamically adjusts four distinct gaitstrotting, bounding, pacing, and walking—as well as the contact time with the ground in real-time. The results demonstrate that this approach improves the robot’s ability to withstand disturbances while interacting with external environments, significantly enhancing operational performance and stability.
+
+      - title: Compact and Optimized Optical Six-Axis Force/Torque Sensor for Legged Robots
+        authors:
+          - Hyun-Bin Kim, Byeong-Il Ham, Keun-Ha Choi, Kyung-Soo Kim
+        publisher: IEEE
+        releaseDate: 2025-10-06
+        url: https://ieeexplore.ieee.org/document/11194133
+        # summary: This study introduces a novel compact and lightweight six-axis force/torque sensor designed for legged robots. In contrast to conventional strain-gauge-based sensors, the innovative sensor utilizes a non-contact measurement method that employs photocouplers. This unique approach enhances the sensor’s resistance to physical impacts, thereby reducing the risk of damage. This design enhances durability, streamlines manufacturing processes, and reduces costs. Because force/torque sensors in legged robots must withstand impact forces that exceed typical ground reaction forces by over threefold, conventional designs often encounter structural limitations. While expanding the sensing range could potentially mitigate sensor failure, it inevitably compromises sensitivity. To address this trade-off, this study introduces an optimization-based design approach that maximizes sensitivity while minimizing error. Through precise modeling and objective function analysis, optimal design parameters were identified and validated through integration and testing on a quadruped robot. The results of these tests closely align with theoretical predictions, validating the sensor’s ability to accurately measure forces in dynamic environments. Beyond foot-ground interaction analysis, the proposed sensor opens up possibilities for broader use in robotic systems, thereby contributing to advancements in both robotics and sensor technology.
+
+      - title: A Miniature High-Resolution Tension Sensor Based on a Photo-Reflector for Robotic Hands and Grippers
+        authors:
+          - Hyun-Bin Kim, Byeong-Il Ham, Kyung-Soo Kim
+        publisher: IEEE
+        releaseDate: 2025-09-03
+        url: https://ieeexplore.ieee.org/abstract/document/11150551
+        # summary: This article presents a miniature tension sensor using a photo-reflector, designed for compact tendon-driven grippers and robotic hands. The proposed sensor has a small form factor of 13×7×6.5 mm and is capable of measuring tensile forces up to 200 N. A symmetric elastic structure incorporating filets and flexure hinges is designed based on Timoshenko beam theory and verified via finite-element method (FEM) analysis, enabling improved sensitivity and mechanical durability while minimizing torsional deformation. The sensor utilizes a compact photo-reflector (VCNT2020) to measure displacement in the near-field region, eliminating the need for light-absorbing materials or geometric modifications required in photo-interrupter-based designs. A 16-bit analog-to-digital converter (ADC) and CAN-FD (flexible data rate) communication enable efficient signal acquisition with up to 5-kHz sampling rate. Calibration experiments demonstrate a resolution of 9.9 mN (corresponding to over 14-bit accuracy) and a root-mean-square error (RMSE) of 0.455 N. Force control experiments using a twisted string actuator (TSA) and PI control yield RMSEs as low as 0.073 N. Compared to previous research using a photo-interrupter, the proposed method achieves more than tenfold improvement in resolution while also reducing nonlinearity and hysteresis. The design is mechanically simple, lightweight, easy to assemble, and suitable for integration into robotic and prosthetic systems requiring high-resolution force feedback.
+
+      - title: Development of Remote Piping Inspection System with Dual-Mode Locomotion Quadruped Robot
+        authors:
+          - Hyun-Bin Kim, Chanseok Kim, Byeong-Il Ham, Jeonguk Kang, Minseong Choi, Keun-Ha Choi, Kyung-Soo Kim
+        publisher: Springer Nature
+        releaseDate: 2025-07-15
+        url: https://link.springer.com/chapter/10.1007/978-3-031-92011-0_25
+        # summary: Visual inspection of the interior of seawater pipelines for discharging waste heat from power plants is essential for the stable operation. However, the confined space and varied internal structures make navigation difficult for both workers and conventional pipe inspection robots. Therefore, we developed a pipe inspection robot system with the following features: a quadrupedal and tracked combined locomotion system, interchangeable inspection modules for specific inspection needs, and real-time localization with an external monitoring program. This design is intended to explore hundreds of meters long piping networks, pass through structures such as butterfly valves, and functional probes, and collect various information to assess the health of the pipelines. The system was tested in model environments to validate its mobility, inspection capabilities, and localization accuracy.
+
+      - title: Temperature Compensation Method for a Six-Axis Force/Torque Sensor Using a Gated Recurrent Unit
+        authors:
+          - Hyun-Bin Kim, Seokju Lee, Byeong-Il Ham, Keun-Ha Choi, Kyung-Soo Kim
+        publisher: IEEE
+        releaseDate: 2025-06-02
+        url: https://ieeexplore.ieee.org/document/11021311
+        # summary: This study aims to enhance the accuracy of a six-axis force/torque (F/T) sensor by improving upon existing approaches that use a multilayer perceptron (MLP) and the least-squares method (LSM). While previous research has used MLPs for thermal compensation, it has not effectively addressed temperature-induced drift. The sensor used in this study operates based on infrared light and incorporates a photocoupler, which makes it highly sensitive to dark current effects, resulting in significant drift under temperature variations. Moreover, its compact and lightweight design (45 g) leads to low thermal capacity, making it susceptible to rapid temperature fluctuations even with minimal heat input, which in turn affects real-time performance. To address these challenges, this study proposes a gated recurrent unit (GRU)-based method and compares it with the conventional MLP approach. Experimental results demonstrate that the GRU-based model significantly reduces drift from 26 to 2.7 N, and the root mean square error (RMSE) from 500 to 3—representing a 100fold improvement. These findings suggest that GRU-based modeling substantially improves real-time F/T measurements in temperature-sensitive environments, benefiting applications in robotics and precision instrumentation.
+
+
+      - title: External force adaptive control in legged robots through footstep optimization and disturbance feedback
+        authors:
+          - Jeonguk Kang, Hyun-Bin Kim, Byeong-Il Ham, Kyung-Soo Kim
+        publisher: IEEE
+        releaseDate: 2024-10-23
+        url: https://ieeexplore.ieee.org/document/10731682
+        # summary: This article studies a robust controller capable of responding to external forces applied to a quadruped robot. Unlike conventional methods, our controller utilizes information about external forces to achieve better performance. We incorporate disturbance feedback into the robot dynamics and calculate a balancing index that considers the estimated force information to ensure coverage of the robot’s support polygon. This approach allows the robot to adjust its legs in response to external forces, redistribute ground reaction forces, and enhance stability, enabling it to handle greater pressures. Additionally, it increases the amount of traction force generated while maintaining posture. These capabilities are expected to maximize disturbance resilience, enhance task performance, and improve stability during interactions with external environments, ultimately contributing to improved mobility of the robot in real-world scenarios.
+
+      
 
     Skills:
-      - name: Physics
-        level: Master
+      - name: Tools
+        # level: Master
         icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+        keywords: "C, C++, Python, PyTorch, LaTeX, Matlab"
+
+    Interests:
+      - name: Robotics
+        icon: fa-solid fa-tag
+        keywords: "Legged Systems, Model Predictive Control, Optimization, Physics-Informed Neural Network, Motion Planning"
 
     Languages:
-      - name: German
+      - name: Korean
         summary: "Native speaker"
 
       - name: English
-        summary: "Fluent"
+        summary: "Intermediate"
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+    
 
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
+    # Certificates:
+    #   - name: Machine Learning
+    #     date: 2018-01-01
+    #     issuer: Stanford University
+    #     icon: fa-solid fa-location-dot
 
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
+    #   - name: Quantum Computing
+    #     date: 2018-01-01
+    #     issuer: Stanford University
+    #     icon: fa-solid fa-tag
 
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
+    #   - name: Quantum Information
+    #     date: 2018-01-01
+    #     issuer: Stanford University
+    #     icon: fa-solid fa-envelope
 
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
+    # Projects:
+    #   - name: Quantum Computing
+    #     summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
+    #     highlights:
+    #       - Quantum Teleportation
+    #       - Quantum Cryptography
+    #     start_date: 2018-01-01
+    #     end_date: 2018-01-01
 
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    # References:
+    #   - name: Professor John Doe
+    #     icon: fa-solid fa-laptop
+    #     reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
 
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+    #   - name: Professor Jane Smith
+    #     icon: fa-solid fa-thumbtack
+    #     reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.

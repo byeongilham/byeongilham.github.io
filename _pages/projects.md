@@ -4,7 +4,7 @@ permalink: /projects/
 title: projects
 description: Ongoing Projects
 nav: true
-nav_order: 3
+nav_order: 5
 horizontal: false
 ---
 
