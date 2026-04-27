@@ -57,13 +57,13 @@ cv:
     Experience:
       - company: IEEE
         position: Graduate Student Member
-        start_date: Mar. 2025
+        start_date: 2025-03
         end_date: Present
 
 
       - company: IEEE Robotics and Automation Society
         position: Technical Committee Member
-        start_date: Jan. 2026
+        start_date: 2026-01
         end_date: Present
         summary: Serving as a Technical Committee member in various advanced robotics domains.
         highlights:
