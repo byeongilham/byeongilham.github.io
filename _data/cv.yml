@@ -170,7 +170,7 @@ cv:
       - title: Development of Remote Piping Inspection System with Dual-Mode Locomotion Quadruped Robot
         authors:
           - Hyun-Bin Kim, Chanseok Kim, Byeong-Il Ham, Jeonguk Kang, Minseong Choi, Keun-Ha Choi, Kyung-Soo Kim
-        publisher: Springer Nature / Robot Intelligence Technology and Applications 9
+        publisher: Robot Intelligence Technology and Applications 9
         releaseDate: 2025-07-15
         url: https://link.springer.com/chapter/10.1007/978-3-031-92011-0_25
         # summary: Visual inspection of the interior of seawater pipelines for discharging waste heat from power plants is essential for the stable operation. However, the confined space and varied internal structures make navigation difficult for both workers and conventional pipe inspection robots. Therefore, we developed a pipe inspection robot system with the following features: a quadrupedal and tracked combined locomotion system, interchangeable inspection modules for specific inspection needs, and real-time localization with an external monitoring program. This design is intended to explore hundreds of meters long piping networks, pass through structures such as butterfly valves, and functional probes, and collect various information to assess the health of the pipelines. The system was tested in model environments to validate its mobility, inspection capabilities, and localization accuracy.
