@@ -135,6 +135,13 @@ cv:
 
     Publications:
 
+      - title: Dual-MPC Footstep Planning for Robust Quadruped Locomotion
+        authors:
+          - Byeong-Il Ham, Hyun-Bin Kim, Jeonguk Kang, Keun Ha Choi, Kyung-Soo Kim
+        publisher: IEEE/ASME Transactions on Mechatronics, Minor revision
+        releaseDate: 2026-05-30
+        # url: https://ieeexplore.ieee.org/abstract/document/11301310
+
       - title: Ground-Aware Octree-A* Hybrid Path Planning for Memory-Efficient 3D Navigation of Ground Vehicles
         authors:
           - Byeong-Il Ham, Hyun-Bin Kim, Kyung-Soo Kim
