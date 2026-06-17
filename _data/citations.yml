@@ -1,8 +1,8 @@
 metadata:
-  last_updated: '2026-05-20'
+  last_updated: '2026-06-17'
 papers:
   zTJQdJAAAAAJ:2osOgNQ5qMEC:
-    citations: 6
+    citations: 7
     title: Temperature compensation method for a six-axis force/torque sensor using a gated recurrent unit
     year: '2025'
   zTJQdJAAAAAJ:LkGwnXOMwfcC:
@@ -18,15 +18,15 @@ papers:
     title: "\uC774\uB3D9 \uB85C\uBD07"
     year: '2024'
   zTJQdJAAAAAJ:WF5omc3nYNoC:
-    citations: 3
+    citations: 4
     title: Compact and optimized optical six-axis force/torque sensor for legged robots
     year: '2025'
   zTJQdJAAAAAJ:YsMSGLbcyi4C:
-    citations: 1
+    citations: 2
     title: A Miniature High-Resolution Tension Sensor Based on a Photo-Reflector for Robotic Hands and Grippers
     year: '2025'
   zTJQdJAAAAAJ:d1gkVwhDpl0C:
-    citations: 5
+    citations: 6
     title: Parameter optimization of optical six-axis force/torque sensor for legged robots
     year: '2025'
   zTJQdJAAAAAJ:eQOLeE2rZwMC:
