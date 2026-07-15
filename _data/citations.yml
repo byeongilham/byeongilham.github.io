@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-06-17'
+  last_updated: '2026-07-15'
 papers:
   zTJQdJAAAAAJ:2osOgNQ5qMEC:
     citations: 7
@@ -42,7 +42,7 @@ papers:
     title: Compact Optical Single-axis Joint Torque Sensor Using Redundant Photo-Reflectors and Quadratic-Programming Calibration
     year: '2026'
   zTJQdJAAAAAJ:u-x6o8ySG0sC:
-    citations: 11
+    citations: 13
     title: External force adaptive control in legged robots through footstep optimization and disturbance feedback
     year: '2024'
   zTJQdJAAAAAJ:ufrVoPGSRksC:
