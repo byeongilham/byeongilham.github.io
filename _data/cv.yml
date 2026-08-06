@@ -135,11 +135,17 @@ cv:
 
     Publications:
 
+      - title: Accelerating Human-Aware Robot Trajectory Generation via Diffusion and Consistency Distillation
+        authors:
+          - Byeong-Il Ham, Hyun-Bin Kim, Kyung-Soo Kim
+        publisher: Springer International Journal of Control, Automation, and Systems (IJCAS), Minor Revision
+        releaseDate: 2026-07-28
+
       - title: Dual-MPC Footstep Planning for Robust Quadruped Locomotion
         authors:
           - Byeong-Il Ham, Hyun-Bin Kim, Jeonguk Kang, Keun Ha Choi, Kyung-Soo Kim
-        publisher: IEEE/ASME Transactions on Mechatronics, Minor revision
-        releaseDate: 2026-05-30
+        publisher: IEEE/ASME Transactions on Mechatronics, Accept
+        releaseDate: 2026-08-02
         # url: https://ieeexplore.ieee.org/abstract/document/11301310
 
       - title: Ground-Aware Octree-A* Hybrid Path Planning for Memory-Efficient 3D Navigation of Ground Vehicles
@@ -198,7 +204,7 @@ cv:
         releaseDate: 2024-10-23
         url: https://ieeexplore.ieee.org/document/10731682
         # summary: This article studies a robust controller capable of responding to external forces applied to a quadruped robot. Unlike conventional methods, our controller utilizes information about external forces to achieve better performance. We incorporate disturbance feedback into the robot dynamics and calculate a balancing index that considers the estimated force information to ensure coverage of the robot’s support polygon. This approach allows the robot to adjust its legs in response to external forces, redistribute ground reaction forces, and enhance stability, enabling it to handle greater pressures. Additionally, it increases the amount of traction force generated while maintaining posture. These capabilities are expected to maximize disturbance resilience, enhance task performance, and improve stability during interactions with external environments, ultimately contributing to improved mobility of the robot in real-world scenarios.
-
+ 
     Projects:
       - name: Development of an AI Robot Platform and Standard System for Seawater Pipeline Inspection
         summary: Developed robot platform technologies and standard systems for seawater pipeline inspection.
