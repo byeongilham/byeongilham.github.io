@@ -1,0 +1,16 @@
+<ul class="card-text font-weight-light list-group list-group-flush">
+  {% for content in entries %}
+    <li class="list-group-item" style="padding-top: 0.5rem; padding-bottom: 0.5rem;">
+      <div class="row">
+        <div class="col-xs-12 cl-sm-12 col-md-12">
+          <span style="font-size: 0.95rem;">
+            <strong>{{ content.company }}</strong>
+            {% if content.summary %}
+              <span class="text-muted ml-2">({{ content.summary }})</span>
+            {% endif %}
+          </span>
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
