@@ -71,20 +71,7 @@ cv:
           - Humanoid Robotics
           - Robot Control
           - Robot Learning
-    
-    Reviewing:
-      - company: Springer International Journal of Control, Automation, and Systems (IJCAS)
-        position: Reviewer
-        date: 2026
-        summary: "2026"
-
-      - company: International Conference on Control, Automation, and Systems (ICCAS)
-        position: Reviewer
-        date: 2026
-        summary: "2026"
-      
-
-      
+          
 
     # Experience:
     #   - company: Institute for Advanced Study, Princeton University
@@ -217,6 +204,18 @@ cv:
         url: https://ieeexplore.ieee.org/document/10731682
         # summary: This article studies a robust controller capable of responding to external forces applied to a quadruped robot. Unlike conventional methods, our controller utilizes information about external forces to achieve better performance. We incorporate disturbance feedback into the robot dynamics and calculate a balancing index that considers the estimated force information to ensure coverage of the robot’s support polygon. This approach allows the robot to adjust its legs in response to external forces, redistribute ground reaction forces, and enhance stability, enabling it to handle greater pressures. Additionally, it increases the amount of traction force generated while maintaining posture. These capabilities are expected to maximize disturbance resilience, enhance task performance, and improve stability during interactions with external environments, ultimately contributing to improved mobility of the robot in real-world scenarios.
  
+    Reviewing:
+      - company: Springer International Journal of Control, Automation, and Systems (IJCAS)
+        position: Reviewer
+        date: 2026
+        summary: "2026"
+
+      - company: International Conference on Control, Automation, and Systems (ICCAS)
+        position: Reviewer
+        date: 2026
+        summary: "2026"
+
+
     Projects:
       - name: Development of an AI Robot Platform and Standard System for Seawater Pipeline Inspection
         summary: Developed robot platform technologies and standard systems for seawater pipeline inspection.
