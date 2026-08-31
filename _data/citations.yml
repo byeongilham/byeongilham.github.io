@@ -1,5 +1,5 @@
 metadata:
-  last_updated: '2026-08-19'
+  last_updated: '2026-08-31'
 papers:
   zTJQdJAAAAAJ:2osOgNQ5qMEC:
     citations: 8
@@ -8,7 +8,7 @@ papers:
   zTJQdJAAAAAJ:LkGwnXOMwfcC:
     citations: 0
     title: Dual-MPC Footstep Planning for Robust Quadruped Locomotion
-    year: '2025'
+    year: '2026'
   zTJQdJAAAAAJ:Se3iqnhoufwC:
     citations: 0
     title: Accelerating Human-Aware Robot Trajectory Generation via Diffusion and Consistency Distillation
@@ -22,7 +22,7 @@ papers:
     title: "\uC774\uB3D9 \uB85C\uBD07"
     year: '2024'
   zTJQdJAAAAAJ:WF5omc3nYNoC:
-    citations: 5
+    citations: 6
     title: Compact and optimized optical six-axis force/torque sensor for legged robots
     year: '2025'
   zTJQdJAAAAAJ:YsMSGLbcyi4C:
