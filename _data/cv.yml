@@ -134,7 +134,13 @@ cv:
 
     Publications:
 
-      - title: Accelerating Human-Aware Robot Trajectory Generation via Diffusion and Consistency Distillation
+      - title: A Compact Optical Joint Torque Measurement System Using Redundant Photo-Reflectors and Quadratic-Programming Calibration
+        authors:
+          - Hyun-Bin Kim, Byeong-Il Ham, Kyung-Soo Kim
+        publisher: IEEE Transactions on Instrumentation and Measurement, Accept
+        releaseDate: 2026-10-05
+
+      - title: Accelerated Generation of Smooth Human-Aware Robot Trajectories via Consistency Distillation from a Diffusion Model
         authors:
           - Byeong-Il Ham, Hyun-Bin Kim, Kyung-Soo Kim
         publisher: Springer International Journal of Control, Automation, and Systems (IJCAS), Accept
